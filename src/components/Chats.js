@@ -63,7 +63,7 @@ const Chats = () => {
       });
   }, [user, history]);
 
-  if (!user || loading) return "Loading...";
+  if (!user || loading) return <div className="loading">Loading...</div>;
 
   return (
     <div className="chats-page">
