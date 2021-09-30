@@ -117,6 +117,6 @@
   font-size: 3rem;
   font-weight: bolder;
   position: relative;
-  left: calc(50vw - 33px);
-  top: calc(50vh - 22px);
+  left: calc(30vw - 33px);
+  top: calc(30vh - 22px);
 }
